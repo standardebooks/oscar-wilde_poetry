@@ -40,7 +40,14 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!--text source for most poems unless otherwise noted below-->
 		<dc:source>https://www.gutenberg.org/ebooks/1057</dc:source>
+		<!--text source for Poems in Prose-->
+		<dc:source>https://www.gutenberg.org/ebooks/1338</dc:source>
+		<!--text source for Lotus Leaves-->
+		<dc:source>https://en.wikisource.org/wiki/Lotus_Leaves</dc:source>
+		<!--text source for Wasted Days-->
+		<dc:source>https://en.wikisource.org/wiki/Wasted_Days_(from_a_Picture_Painted_by_Miss_V._T.)</dc:source>
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
