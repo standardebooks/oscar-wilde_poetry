@@ -48,18 +48,28 @@
 		<dc:source>https://en.wikisource.org/wiki/Lotus_Leaves</dc:source>
 		<!--text source for Wasted Days-->
 		<dc:source>https://en.wikisource.org/wiki/Wasted_Days_(from_a_Picture_Painted_by_Miss_V._T.)</dc:source>
+		<!-- 1909 Collection -->
+		<dc:source>https://hdl.handle.net/2027/pur1.32754003562737</dc:source>
+		<!--Sen Artysty -->
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/oscar-wilde_poetry</meta>
-		<dc:creator id="author">Oscar Wilde</dc:creator>
-		<meta property="file-as" refines="#author">Wilde, Oscar</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Oscar_Wilde</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:creator id="author-1">Oscar Wilde</dc:creator>
+		<meta property="file-as" refines="#author-1">Wilde, Oscar</meta>
+		<meta property="se:name.person.full-name" refines="#author-1">Oscar Fingal O’Fflahertie Wills Wilde</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Oscar_Wilde</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n79042038</meta>
+		<meta modifies="#author-1" property="display-seq">1</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">trl</meta>
+		<dc:creator id="author-2">Helena Modjeska</dc:creator>
+		<meta property="file-as" refines="#author-2">Modjeska, Helena</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/Helena_Modjeska</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n79105715</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
@@ -69,15 +79,15 @@
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
 		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Christopher Hapka</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Hapka, Christopher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -89,7 +99,7 @@
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/poems-1.xhtml" id="poems-1.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/poems-3.xhtml" id="poems-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/sen-artysty.xhtml" id="sen-artysty.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poems-4.xhtml" id="poems-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poems-5.xhtml" id="poems-5.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poems-in-prose.xhtml" id="poems-in-prose.xhtml" media-type="application/xhtml+xml"/>
@@ -105,7 +115,7 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="poems-1.xhtml"/>
 		<itemref idref="ravenna-2.xhtml"/>
-		<itemref idref="poems-3.xhtml"/>
+		<itemref idref="sen-artysty.xhtml"/>
 		<itemref idref="poems-4.xhtml"/>
 		<itemref idref="poems-5.xhtml"/>
 		<itemref idref="the-sphinx.xhtml"/>
