@@ -53,6 +53,8 @@
 		<dc:source>https://catalog.hathitrust.org/Record/102953450</dc:source>
 		<!-- 1925 Poems -->
 		<dc:source>https://catalog.hathitrust.org/Record/006061074</dc:source>
+		<!-- Ravenna -->
+		<dc:source>https://archive.org/details/ravennarecitedin00wildrich</dc:source>
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:is-a-collection">true</meta>
