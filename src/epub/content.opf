@@ -48,9 +48,11 @@
 		<dc:source>https://en.wikisource.org/wiki/Lotus_Leaves</dc:source>
 		<!--text source for Wasted Days-->
 		<dc:source>https://en.wikisource.org/wiki/Wasted_Days_(from_a_Picture_Painted_by_Miss_V._T.)</dc:source>
-		<!-- 1909 Collection -->
+		<!-- 1909 Poems -->
+		<!-- From this source: Sen Artysty, A Fragment, Θρηνωιδια, Agamemnon -->
 		<dc:source>https://catalog.hathitrust.org/Record/102953450</dc:source>
-		<!--Sen Artysty -->
+		<!-- 1925 Poems -->
+		<dc:source>https://catalog.hathitrust.org/Record/006061074</dc:source>
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:is-a-collection">true</meta>
@@ -65,13 +67,13 @@
 		<meta modifies="#author" property="display-seq">1</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">trl</meta>
-<!--
->		<dc:creator id="other-1">Helena Modjeska</dc:creator>
+		<!--
+		>		<dc:creator id="other-1">Helena Modjeska</dc:creator>
 		<meta property="file-as" refines="#other-1">Modjeska, Helena</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#other-1">https://en.wikipedia.org/wiki/Helena_Modjeska</meta>
 		<meta property="se:url.authority.nacoaf" refines="#other-1">http://id.loc.gov/authorities/names/n79105715</meta>
 		<meta property="role" refines="#other-1" scheme="marc:relators">oth</meta>
--->
+		-->
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
