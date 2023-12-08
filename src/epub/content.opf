@@ -55,6 +55,9 @@
 		<dc:source>https://catalog.hathitrust.org/Record/006061074</dc:source>
 		<!-- Ravenna -->
 		<dc:source>https://archive.org/details/ravennarecitedin00wildrich</dc:source>
+		<!-- Boston Pilot -->
+		<!-- From this source: The Theatre at Argos -->
+		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
