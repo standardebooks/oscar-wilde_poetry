@@ -34,8 +34,8 @@
 		<meta property="term" refines="#subject-1">sh85103704</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010108360</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of poems by Oscar Wilde.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
