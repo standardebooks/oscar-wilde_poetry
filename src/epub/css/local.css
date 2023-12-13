@@ -70,6 +70,16 @@ p span.i5{
 	text-indent: -1em;
 }
 
+p span.i6{
+	padding-left: 7em;
+	text-indent: -1em;
+}
+
+/* Linebreak span */
+.line-break span:last-child{
+	vertical-align: -100%;
+}
+
 /* Dialogue table */
 [epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
