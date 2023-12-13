@@ -12,9 +12,9 @@
 }
 
 /* breaks after poem */
-article,
-section{
-	break-after: page;
+article[epub|type~="z3998:poem"],
+section[epub|type~="z3998:poem"]{
+	break-before: page;
 }
 
 /* poem footer */
