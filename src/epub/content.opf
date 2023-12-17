@@ -63,7 +63,7 @@
 		<!-- Boston Pilot -->
 		<!-- From this source: The Theatre at Argos -->
 		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
-		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks,"  one of "Athanasia," two of "La Donna Bella Della Mia Mente". </meta>
+		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks,"  one of "Athanasia," two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line.</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
