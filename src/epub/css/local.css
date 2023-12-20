@@ -16,6 +16,7 @@ article[epub|type~="z3998:poem"],
 section[epub|type~="z3998:poem"],
 article[epub|type~="z3998:drama"],
 article[epub|type~="z3998:fiction"],
+section[epub|type~="chapter"],
 section > h2{
 	break-after: page;
 }
