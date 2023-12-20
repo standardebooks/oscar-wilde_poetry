@@ -60,6 +60,8 @@
 		<!-- Poems, 1881 Bogue Editon-->
 		<!-- Used to check line indentation etc. where 1909 is unclear -->
 		<dc:source>https://catalog.hathitrust.org/Record/010824214</dc:source>
+		<!-- Poems in Prose, 1905 -->
+		<dc:source>https://catalog.hathitrust.org/Record/100217578</dc:source>
 		<!-- Boston Pilot -->
 		<!-- From this source: The Theatre at Argos -->
 		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
