@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="poems-1.xhtml">
+	<file path="chorus-of-cloud-maidens.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>se titlecase wants to incorrectly titlecase the initials in the dedication.</reason>

@@ -63,7 +63,7 @@
 		<!-- Boston Pilot -->
 		<!-- From this source: The Theatre at Argos -->
 		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
-		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks,"  one of "Athanasia," two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line.</meta>
+		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks," one of "Athanasia," and two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line.</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -75,14 +75,6 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79042038</meta>
 		<!-- <meta modifies="#author" property="display-seq">1</meta> -->
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">trl</meta>
-		<!--
-		>		<dc:creator id="other-1">Helena Modjeska</dc:creator>
-		<meta property="file-as" refines="#other-1">Modjeska, Helena</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#other-1">https://en.wikipedia.org/wiki/Helena_Modjeska</meta>
-		<meta property="se:url.authority.nacoaf" refines="#other-1">http://id.loc.gov/authorities/names/n79105715</meta>
-		<meta property="role" refines="#other-1" scheme="marc:relators">oth</meta>
-		-->
 		<dc:contributor id="artist">Albert Joseph Moore</dc:contributor>
 		<meta property="file-as" refines="#artist">Moore, Albert Joseph</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Joseph_Moore</meta>
@@ -108,13 +100,13 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/chorus-of-cloud-maidens.xhtml" id="chorus-of-cloud-maidens.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/helas.xhtml" id="helas.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/impressions.xhtml" id="impressions.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/poems-1.xhtml" id="poems-1.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/poems-4.xhtml" id="poems-4.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/poems-5.xhtml" id="poems-5.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/poems-in-prose.xhtml" id="poems-in-prose.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/ravenna-2.xhtml" id="ravenna-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/ravenna.xhtml" id="ravenna.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/sen-artysty.xhtml" id="sen-artysty.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-ballad-of-reading-gaol.xhtml" id="the-ballad-of-reading-gaol.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-sphinx.xhtml" id="the-sphinx.xhtml" media-type="application/xhtml+xml"/>
@@ -125,11 +117,11 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="poems-1.xhtml"/>
-		<itemref idref="ravenna-2.xhtml"/>
+		<itemref idref="chorus-of-cloud-maidens.xhtml"/>
+		<itemref idref="ravenna.xhtml"/>
 		<itemref idref="sen-artysty.xhtml"/>
-		<itemref idref="poems-4.xhtml"/>
-		<itemref idref="poems-5.xhtml"/>
+		<itemref idref="helas.xhtml"/>
+		<itemref idref="impressions.xhtml"/>
 		<itemref idref="the-sphinx.xhtml"/>
 		<itemref idref="poems-in-prose.xhtml"/>
 		<itemref idref="the-ballad-of-reading-gaol.xhtml"/>
