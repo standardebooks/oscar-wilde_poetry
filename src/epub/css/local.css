@@ -11,6 +11,12 @@
 	text-align: center;
 }
 
+/* break after introductory paragraph */
+p[epub|type~="introduction"] + section[epub|type~="z3998:poem"]{
+margin-top:1em;
+}
+
+
 /* breaks after poem */
 article[epub|type~="z3998:poem"],
 section[epub|type~="z3998:poem"],
