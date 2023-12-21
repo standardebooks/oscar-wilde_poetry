@@ -32,7 +32,8 @@ section > h2{
 }
 
 /* poem footer */
-[epub|type~="z3998:poem"] footer{
+[epub|type~="z3998:poem"] footer,
+[epub|type~="z3998:chapter"] footer{
 	font-variant: small-caps;
 	margin-top: 1em;
 }
