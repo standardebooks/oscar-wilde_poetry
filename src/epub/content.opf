@@ -37,7 +37,9 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of poems by Oscar Wilde.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Irish writer &lt;a href="https://standardebooks.org/ebooks/oscar-wilde"&gt;Oscar Wilde&lt;/a&gt; wrote in almost every form available to him. He is remembered today for his witty plays and for his novel &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray"&gt;&lt;i&gt;The Picture of Dorian Gray&lt;/i&gt;&lt;/a&gt;, and he also wrote essays, criticism, stories and fables.&lt;/p&gt;
+			&lt;p&gt;But Wilde first gained fame and notoriety as a poet. It was as a poet he became one of the leading lights of the Aesthetic movement, and he continued to write verse to the end of his life. The only major work Wilde published between his release from prison and his death was the long poem “The Ballad of Reading Gaol,” originally published under the pseudonym “C.3.3,” representing the number of his own cell.&lt;/p&gt;
+			&lt;p&gt;Those who only know Wilde as the witty author of &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest"&gt;&lt;i&gt;The Importance of Being Earnest&lt;/i&gt;&lt;/a&gt; will see a different Wilde in these poems: by turns reflective, sensuous, romantic and devoutly religious, but always with Wilde’s unerring eye for a telling phrase and his commitment to the ideals of the aesthetic movement, to art and beauty for their own sake.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!--text source for most poems unless otherwise noted below-->
