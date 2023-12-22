@@ -89,6 +89,9 @@
 		<dc:contributor id="transcriber-1">David Price</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Price, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-2">Leopold~enwikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Leopold~enwikisource</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Christopher Hapka</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Hapka, Christopher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
