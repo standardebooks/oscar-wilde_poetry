@@ -6,4 +6,10 @@
 			<reason>se titlecase wants to incorrectly titlecase the initials in the dedication.</reason>
 		</ignore>
 	</file>
+	<file path="impressions.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Titlecase correctly reflects presence of an internal title.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
