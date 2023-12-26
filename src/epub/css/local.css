@@ -153,11 +153,6 @@ article[epub|type~="z3998:drama"] > p{
 }
 
 /* Italics for blocks with language tags */
-
-blockquote[xml|lang],
-[xml|lang][epub|type~="subtitle"],
-[xml|lang][epub|type~="title"]{
+blockquote[xml|lang]{
 	font-style: italic;
 }
-
-
