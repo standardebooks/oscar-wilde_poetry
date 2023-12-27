@@ -54,14 +54,12 @@
 		<!-- Transcribed from this source: Sen Artysty, Θρηνωιδια, Agamemnon-->
 		<!-- Most poems proofed from this source unless listed below -->
 		<dc:source>https://catalog.hathitrust.org/Record/102953450</dc:source>
-		<!-- 1925 Poems -->
-		<!-- Transcribed from this source: A Fragment -->
-		<dc:source>https://catalog.hathitrust.org/Record/006061074</dc:source>
 		<!-- Ravenna -->
 		<dc:source>https://archive.org/details/ravennarecitedin00wildrich</dc:source>
-		<!-- Poems, 1881 Bogue Editon-->
+		<!-- Poems, 1881 Bogue Editon and 1925 Collected Poems-->
 		<!-- Used to check line indentation etc. where 1909 is unclear -->
 		<dc:source>https://catalog.hathitrust.org/Record/010824214</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/006061074</dc:source>
 		<!-- Poems in Prose, 1905 -->
 		<dc:source>https://catalog.hathitrust.org/Record/100217578</dc:source>
 		<!-- The Ballad of Reading Gaol (1899 London printing)-->
@@ -69,7 +67,7 @@
 		<!-- Boston Pilot -->
 		<!-- From this source: The Theatre at Argos -->
 		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
-		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks," one of "Athanasia," and two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line.</meta>
+		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks," one of "Athanasia," and two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line. The 1925 includes "A Fragment," which purports to be a Wilde poem but on examination of the original source and the poem itself appears to be instead a parody of "Under the Balcony;" it has not been included here.</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
