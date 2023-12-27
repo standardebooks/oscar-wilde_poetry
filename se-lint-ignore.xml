@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="chorus-of-cloud-maidens.xhtml">
+	<file path="poetry.xhtml">
 		<ignore>
 			<code>s-023</code>
-			<reason>se titlecase wants to incorrectly titlecase the initials in the dedication.</reason>
-		</ignore>
-	</file>
-	<file path="impressions.xhtml">
-		<ignore>
-			<code>s-023</code>
-			<reason>Titlecase correctly reflects presence of an internal title.</reason>
+			<reason>se titlecase wants to incorrectly use lowercase for an initial V in a personal name and for an article that is part of a quoted title.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
