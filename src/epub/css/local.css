@@ -30,7 +30,7 @@ section > h2{
 
 /* breaks in The Sphinx, where there are no section headers */
 #the-sphinx section{
-	margin-top: 4em;
+	padding-top: 4em;
 }
 
 /* poem footer */
