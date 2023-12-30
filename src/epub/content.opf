@@ -77,7 +77,6 @@
 		<meta property="se:name.person.full-name" refines="#author">Oscar Fingal O’Fflahertie Wills Wilde</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Oscar_Wilde</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79042038</meta>
-		<!-- <meta modifies="#author" property="display-seq">1</meta> -->
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Albert Joseph Moore</dc:contributor>
 		<meta property="file-as" refines="#artist">Moore, Albert Joseph</meta>
