@@ -157,3 +157,9 @@ article[epub|type~="z3998:drama"] > p{
 blockquote[xml|lang]{
 	font-style: italic;
 }
+
+/* Dedication */
+header p[epub|type~="dedication"]{
+	text-align: center;
+}
+
