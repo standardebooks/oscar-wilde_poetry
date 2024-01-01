@@ -5,5 +5,9 @@
 			<code>s-023</code>
 			<reason>se titlecase wants to incorrectly use lowercase for an initial V in a personal name and for an article that is part of a quoted title.</reason>
 		</ignore>
+		<ignore>
+			<code>t-030</code>
+			<reason>Initialism containing numbers incorrectly flagged as malformed.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
