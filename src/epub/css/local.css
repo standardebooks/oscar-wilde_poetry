@@ -149,10 +149,6 @@ article[epub|type~="z3998:drama"] > p{
 	font-style: italic; /* ... */
 }
 
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 /* Italics for blocks with language tags */
 blockquote[xml|lang]{
 	font-style: italic;
@@ -162,4 +158,3 @@ blockquote[xml|lang]{
 header p[epub|type~="dedication"]{
 	text-align: center;
 }
-
