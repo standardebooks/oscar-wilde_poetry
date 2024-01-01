@@ -95,9 +95,9 @@ p span.i6{
 	text-indent: -1em;
 }
 
-/* Linebreak span */
-.line-break span:last-child{
-	vertical-align: -100%;
+/* Dropped line */
+.dl2 span:first-child{
+	vertical-align: 100%;
 }
 
 /* Dialogue table */
