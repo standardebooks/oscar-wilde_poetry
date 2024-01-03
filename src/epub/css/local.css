@@ -13,9 +13,12 @@
 	text-align: center;
 }
 
-/* break after introductory paragraph */
-p[epub|type~="introduction"] + section[epub|type~="z3998:poem"]{
-	margin-top: 1em;
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
 }
 
 /* breaks after poem */
@@ -31,7 +34,7 @@ section > h2{
 
 /* breaks in The Sphinx, where there are no section headers */
 #the-sphinx section{
-	padding-top: 4em;
+	margin-top: 3em;
 }
 
 /* poem footer */
@@ -146,9 +149,28 @@ article[epub|type~="z3998:drama"] > p{
 }
 
 /* Epigraph */
+/* All epigraphs */
 [epub|type~="epigraph"]{
-	font-style: italic; /* ... */
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
 }
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
 
 /* Italics for blocks with language tags */
 blockquote[xml|lang]{
