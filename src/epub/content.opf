@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/oscar-wilde/poetry</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-01-05T19:32:01Z</dc:date>
+		<meta property="dcterms:modified">2024-01-05T19:32:01Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,9 +37,8 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of poems by Oscar Wilde.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Irish writer &lt;a href="https://standardebooks.org/ebooks/oscar-wilde"&gt;Oscar Wilde&lt;/a&gt; wrote in almost every form available to him. He is remembered today for his witty plays and for his novel &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray"&gt;&lt;i&gt;The Picture of Dorian Gray&lt;/i&gt;&lt;/a&gt;, and he also wrote essays, criticism, stories and fables.&lt;/p&gt;
-			&lt;p&gt;But Wilde first gained fame and notoriety as a poet. It was as a poet he became one of the leading lights of the Aesthetic movement, and he continued to write verse to the end of his life. The only major work Wilde published between his release from prison and his death was the long poem “The Ballad of Reading Gaol,” originally published under the pseudonym “C.3.3,” representing the number of his own cell.&lt;/p&gt;
-			&lt;p&gt;Those who only know Wilde as the witty author of &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest"&gt;&lt;i&gt;The Importance of Being Earnest&lt;/i&gt;&lt;/a&gt; will see a different Wilde in these poems: by turns reflective, sensuous, romantic and devoutly religious, but always with Wilde’s unerring eye for a telling phrase and his commitment to the ideals of the aesthetic movement, to art and beauty for their own sake.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/oscar-wilde"&gt;Oscar Wilde&lt;/a&gt; wrote in almost every form available to him, but he first gained fame and notoriety as a poet. It was as a poet that he became one of the leading lights of the Aesthetic movement, and he continued to write verse to the end of his life—in fact the only major work Wilde published between his release from prison and his death was the long poem “The Ballad of Reading Gaol,” originally published under the pseudonym “C.3.3,” representing the number of his prison cell.&lt;/p&gt;
+			&lt;p&gt;Those who only know Wilde as the witty author of &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-importance-of-being-earnest"&gt;&lt;i&gt;The Importance of Being Earnest&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray"&gt;The Picture of Dorian Gray&lt;/a&gt; will see a different Wilde in these poems: by turns reflective, sensuous, romantic and devoutly religious, but always with Wilde’s unerring eye for a telling phrase and his commitment to the ideals of the aesthetic movement, to art and beauty for their own sake.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!--text source for most poems unless otherwise noted below-->
@@ -69,8 +68,8 @@
 		<dc:source>https://newspapers.bc.edu/?a=d&amp;d=pilot18770721-01.2.24</dc:source>
 		<meta property="se:production-notes">For the shorter poems, this edition generally follows the text of the 1909 edition linked above. However, this edition includes additional verses of several poems not included in Wilde's first collection or in most other collections, which are omitted here. These include three verses of "Magdalen Walks," one of "Athanasia," and two of "La Donna Bella Della Mia Mente". In stanza I:31 of Charmides, we follow the 1925 edition in adding a comma at the end of the second last line. The 1925 includes "A Fragment," which purports to be a Wilde poem but on examination of the original source and the poem itself appears to be instead a parody of "Under the Balcony;" it has not been included here.</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">43904</meta>
+		<meta property="se:reading-ease.flesch">66.3</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/oscar-wilde_poetry</meta>
 		<dc:creator id="author">Oscar Wilde</dc:creator>
 		<meta property="file-as" refines="#author">Wilde, Oscar</meta>
@@ -98,6 +97,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
