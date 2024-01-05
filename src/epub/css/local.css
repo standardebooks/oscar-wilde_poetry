@@ -4,7 +4,8 @@
 
 [epub|type~="z3998:poem"],
 [epub|type~="z3998:verse"]{
-	text-align: justify;
+	text-align: initial;
+	text-indent: 0;
 }
 
 /* p in poem hgroup */
